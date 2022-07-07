@@ -1,3 +1,5 @@
+-> side note after originally writing this; I had no idea how the formatting for a readme would appear in github so i apologize for the formatting. 
+
 Project Descripton: 
     - This is a simple webpage that displays 3 pokemon cards and a few facst about that pokemon;
      -The user can click a button (the pokeball button) to change which pokemon are displayed;
