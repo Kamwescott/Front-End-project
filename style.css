@@ -1,0 +1,65 @@
+
+#navbar1{
+    background-color: red;
+    height: 2.5rem;
+ 
+}
+#navbar2{
+    background-color: rgb(222, 222, 222);
+    height: 2.5rem;
+    border-bottom-left-radius:75% ;
+    border-bottom-right-radius:75% ;
+}
+#navInner1{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: black;
+    height: 0.75rem;
+    width:100%;
+}
+#navInner2{
+    background-color: white;
+    align-self: center;
+   flex-flow: row wrap;
+    z-index: 1;
+    position: absolute;
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+#navBallButtonOuterBorder{
+    height: 4.5rem;
+    width:4.5rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    border-style:solid;
+    border-radius: 50%;
+    border-width: 0.5rem;
+
+}
+#navBallButtonInnerBorder{
+    height: 2rem;
+    width:2rem;
+    background-color: rgb(187, 184, 184);
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    align-self: center;
+
+}
+#navBallButton{
+    position: absolute;
+    z-index: 1;
+    align-self: center;
+    background-color: rgb(2, 2, 2);
+    height: 1.5rem;
+    width:1.5rem;
+    border-radius: 50%;
+}
+#textBelowNav{
+   display: flex;
+   justify-content: center;
+}
