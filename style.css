@@ -81,7 +81,7 @@ margin-top: 15px;
 }
 .list-group-item{
     width:16rem;
-    height: 2rem;
+    height: 4rem;
 }
 .cardName{
     font-family: 'Pokemon Solid', sans-serif; 
@@ -100,3 +100,25 @@ margin-top: 15px;
     -webkit-text-stroke-color:blue;
     letter-spacing: 3px;
 }
+.cardPreEvo{
+    font-family: 'Pokemon Solid', sans-serif; 
+    font-size: large;
+    color:yellow;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:blue;
+    letter-spacing: 3px;
+}
+.cardEvo{
+    font-family: 'Pokemon Solid', sans-serif; 
+    font-size: large;
+    color:yellow;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:blue;
+    letter-spacing: 3px;
+}
+
+.fill{
+    font-size: medium;
+    
+}
+
