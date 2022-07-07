@@ -1,4 +1,5 @@
-const navBrand = document.querySelector("#navBrand")
+const navballButton = document.querySelector("#navBallButton")
+
 let img;
 let arr=[];
 
@@ -33,7 +34,7 @@ $('#img3').addClass("card-img-top")
 
 generateNewPokemon()
 
-navBrand.addEventListener('click', (e)=>{
+navballButton.addEventListener('click', (e)=>{
 $(".card").html("")//clear cards from screen
 img = arr[Math.floor(Math.random()*31)]
 $('#card1').append(`<img id="img1" src="${img}"></img>`)

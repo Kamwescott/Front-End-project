@@ -63,3 +63,11 @@
    display: flex;
    justify-content: center;
 }
+.pokemon-font{
+    font-size: xx-large;
+    font-family: 'Pokemon Solid', sans-serif;
+    color:yellow;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:blue;
+                                               
+}
