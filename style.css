@@ -2,13 +2,15 @@
 #navbar1{
     background-color: red;
     height: 2.5rem;
+    
+
  
 }
 #navbar2{
     background-color: rgb(222, 222, 222);
     height: 2.5rem;
-    border-bottom-left-radius:75% ;
-    border-bottom-right-radius:75% ;
+    border-bottom-left-radius: 50% ;
+    border-bottom-right-radius: 50% ;
 }
 #navInner1{
     display: flex;
@@ -63,11 +65,38 @@
    display: flex;
    justify-content: center;
 }
+.card{
+margin-bottom: 5px;
+margin-top: 15px;
+}
 .pokemon-font{
     font-size: xx-large;
     font-family: 'Pokemon Solid', sans-serif;
     color:yellow;
+    -webkit-text-stroke-width:5px;
+    -webkit-text-stroke-color:blue;
+    paint-order:stroke;
+    letter-spacing: 4px;
+                                               
+}
+.list-group-item{
+    width:16rem;
+    height: 2rem;
+}
+.cardName{
+    font-family: 'Pokemon Solid', sans-serif; 
+    font-size: large;
+    color:yellow;
     -webkit-text-stroke-width:1px;
     -webkit-text-stroke-color:blue;
-                                               
+    letter-spacing: 3px;
+}
+
+.cardType{
+    font-family: 'Pokemon Solid', sans-serif; 
+    font-size: large;
+    color:yellow;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:blue;
+    letter-spacing: 3px;
 }
